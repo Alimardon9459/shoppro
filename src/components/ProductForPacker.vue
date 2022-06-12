@@ -293,5 +293,10 @@ export default {
     .q-card__section--vert {
     padding: 8px;
     } 
+    @media screen and (max-width:730px) {
+        .justify-between{
+            justify-content: center;
+        }
+    }
     
 </style>

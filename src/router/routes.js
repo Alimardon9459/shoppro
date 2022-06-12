@@ -7,6 +7,8 @@ const routes = [
       { path: '', component: () => import('src/pages/ForPackerPage.vue') },
       { path: 'carrier', component: () => import('src/pages/ForCarrierPage.vue') },
       { path: 'report', component: () => import('src/pages/MonthlyReport.vue') },
+      { path: 'login', component: () => import('src/pages/LoginPage.vue') },
+
 
     ]
   },
