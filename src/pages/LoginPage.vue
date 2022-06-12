@@ -19,9 +19,7 @@
     </div>
 </template>
 <style scoped media="screen">
-      *,
-    *:before,
-    *:after{
+    *,*:before,*:after{
         padding: 0;
         margin: 0;
         box-sizing: border-box;
@@ -110,6 +108,11 @@
         font-weight: 600;
         border-radius: 5px;
         cursor: pointer;
+    }
+    @media screen and ( max-width:500px) {
+        .background{
+            width: 330px;
+        }
     }
     
 

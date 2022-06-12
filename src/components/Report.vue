@@ -114,4 +114,22 @@ export default {
             padding: 25px;
         }
     }
+    @media screen and (max-width:420px) {
+        .fs-22px{
+            font-size: 16px;
+        }
+        .fs-18px{
+            font-size: 13px;
+        }
+        .p-30px{
+            padding: 10px;
+        }
+        .p-20px{
+            padding: 8px;
+        }
+        .p-50px{
+            padding: 20px;
+        }
+    }
+
 </style>
