@@ -8,6 +8,8 @@ const routes = [
       { path: 'carrier', component: () => import('src/pages/ForCarrierPage.vue') },
       { path: 'report', component: () => import('src/pages/MonthlyReport.vue') },
       { path: 'login', component: () => import('src/pages/LoginPage.vue') },
+      { path: 'yangi', component: () => import('src/pages/yangi.vue') },
+
 
 
     ]

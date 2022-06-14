@@ -4,7 +4,7 @@
             <div class="shape w-200px h-200px br-50pr"></div>
             <div class="shape w-200px h-200px br-50pr"></div>
         </div>
-        <div class="form h-520px w-400px br-10px">
+        <div class="form h-520px w-390px br-10px">
             <h3>Tizimga kirish</h3>
 
             <div class="label">Username</div>

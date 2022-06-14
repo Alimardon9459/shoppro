@@ -1,5 +1,5 @@
 <template >
-    <div class= " content-report w-100pr p-50px row justify-center bg-grey-3  ">
+    <div class= " content-report w-100pr p-50px row justify-center   ">
         <div class="report w-100pr  bg-white row justify-between br-20px" >
             <div class="report-text w-60pr p-30px  ">
                 <div class="w-100pr text-center fs-22px ">
