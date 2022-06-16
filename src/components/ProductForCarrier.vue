@@ -56,7 +56,7 @@
                     
                     <q-card-section class="q-pt-none ">
                         <div class="w-100pr row justify-center">
-                            <q-btn @click="SetOut(i)" class="bg-green text-white">Yetkazish</q-btn>
+                            <q-btn @click="SetOut(i)" :disable="order.ready.length==5 ? false :true" class="bg-green text-white">Yetkazish</q-btn>
                         </div>                        
                     </q-card-section>
                 </q-card>

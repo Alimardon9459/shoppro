@@ -58,10 +58,10 @@
                     
                     <q-card-section class="q-pt-none ">
                         <div class="w-100pr row justify-center">
-                            <q-btn :disable="order.ready.length==5 || order.ready.length==11 ? true : false"  @click="Preparation(i)" class="bg-yellow">Tayyorlash</q-btn>
+                            <q-btn :disable="order.ready.length==0  ? false : true"  @click="Preparation(i)" class="bg-yellow">Tayyorlash</q-btn>
                         </div>
                         <div class="mt-20px w-100pr row justify-center">
-                            <q-btn :disable="order.ready.length!=11 ? true : false" @click="Ready(i)" class="bg-green-6">Tayyor</q-btn>
+                            <q-btn :disable="order.ready.length==11 ? false : true" @click="Ready(i)" class="bg-green-6">Tayyor</q-btn>
                         </div>
                         
                     </q-card-section>
